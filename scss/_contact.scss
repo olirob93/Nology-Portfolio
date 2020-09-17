@@ -1,0 +1,54 @@
+@import '_variables';
+
+#contact {
+    background-color: $white-color;
+    padding-top: 20px;
+    height: 500px;
+
+    h3{
+        margin-top: 10px;
+        font-size: 35px;
+        color: $black-color;
+        width: 100%;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+.cont-dets{
+    
+
+    h4 {
+        margin-bottom: 10px;
+        color: $black-color;
+        font-size: 20px;
+    }
+
+    p {
+        margin: 5px;
+        color: $blue-color;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.icon-links {
+display: flex;
+justify-content: center; 
+    a {
+        color: $blue-color;
+        margin: 10px;
+
+        i {
+            font-size: 75px;
+        }
+    }
+}
+}
+@media (min-width:700px){
+    #contact {
+        .cont-dets{
+            text-align: center;
+        }
+    }
+}
+

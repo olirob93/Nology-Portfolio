@@ -1,0 +1,77 @@
+@import 'variables';
+
+#projects {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: rgba(149, 163, 179, 0.514);
+    padding-top: 20px;
+    
+    h3{
+        font-size: 35px;
+        color: $blue-color;
+        text-align: center;
+        width: 100%;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+        color: $black-color;
+        background-color: $white-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 5, 5, 0.19);
+
+        .card-img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            
+            .card-title{
+                font-size: 20px;
+                margin: 5px;
+            }
+
+            .card-text{
+                font-size: 15px;
+                margin: 5px;
+            }
+
+            .card-links {
+                display: flex;
+                justify-content: space-around;
+                margin: 5px;
+
+                a{
+                    text-decoration: none;
+                    color: $blue-color;
+                    padding: 5px;
+                    border-radius: 10px;
+
+                    i {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 900px){
+    #projects {
+        .card{
+            width: 40%;
+            height: 450px;
+        }
+    }
+
+}
