@@ -71,6 +71,10 @@
         .card{
             width: 40%;
             height: 450px;
+
+            .card-body .card-links a:hover{
+                color: $orange-color;
+            }
         }
     }
 
