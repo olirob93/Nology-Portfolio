@@ -29,6 +29,7 @@
         background-color: $grey-color;
         border: 0;
         border-bottom: 2px solid $orange-color;
+        margin-top: 10px;
 
         a{
             text-decoration: none;
@@ -52,6 +53,13 @@
 @media (min-width:700px){
     body .mobile-nav {
         display: none;
+    }
+
+    #home button a {
+        &:hover {
+            color: $orange-color;
+            transition: 0.7s ease;
+        }
     }
 
     #home, #bio, #projects, #contact {

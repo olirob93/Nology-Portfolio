@@ -23,6 +23,10 @@
         font-size: 20px;
     }
 
+    a{
+        text-decoration: none;
+    }
+
     p {
         margin: 5px;
         color: $blue-color;
@@ -48,6 +52,13 @@ justify-content: center;
     #contact {
         .cont-dets{
             text-align: center;
+        }
+
+        .icon-links{
+            a:hover{
+                color: $orange-color;
+                transition: 0.75s ease;
+            }
         }
     }
 }

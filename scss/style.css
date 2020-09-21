@@ -24,6 +24,7 @@
   background-color: #95A3B3;
   border: 0;
   border-bottom: 2px solid #F08700;
+  margin-top: 10px;
 }
 #home button a {
   text-decoration: none;
@@ -44,6 +45,11 @@
 @media (min-width: 700px) {
   body .mobile-nav {
     display: none;
+  }
+
+  #home button a:hover {
+    color: #F08700;
+    transition: 0.7s ease;
   }
 
   #home, #bio, #projects, #contact {
@@ -181,6 +187,9 @@
   color: black;
   font-size: 20px;
 }
+#contact .cont-dets a {
+  text-decoration: none;
+}
 #contact .cont-dets p {
   margin: 5px;
   color: #4B4E6D;
@@ -202,6 +211,10 @@
 @media (min-width: 700px) {
   #contact .cont-dets {
     text-align: center;
+  }
+  #contact .icon-links a:hover {
+    color: #F08700;
+    transition: 0.75s ease;
   }
 }
 * {
