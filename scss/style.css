@@ -10,6 +10,7 @@
 #home div {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 15px;
 }
 #home h1 {
   font-size: 50px;
@@ -20,11 +21,13 @@
   letter-spacing: 2px;
 }
 #home button {
+  width: 100%;
+  text-align: left;
   font-size: 20px;
   background-color: #95A3B3;
   border: 0;
-  border-bottom: 2px solid #F08700;
   margin-top: 10px;
+  text-decoration: underline;
 }
 #home button a {
   text-decoration: none;
@@ -34,6 +37,7 @@
 @media (min-width: 330px) {
   h1, h2, button {
     margin: auto;
+    width: 100%;
   }
 }
 @media (min-width: 450px) {
@@ -44,6 +48,10 @@
 }
 @media (min-width: 700px) {
   body .mobile-nav {
+    display: none;
+  }
+
+  #home .mob-only {
     display: none;
   }
 
@@ -85,6 +93,7 @@
 }
 #bio .skills-icons {
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
 }
 #bio .skills-icons i {
