@@ -30,7 +30,6 @@
   text-decoration: underline;
 }
 #home button a {
-  text-decoration: none;
   color: #fff;
 }
 
@@ -43,7 +42,6 @@
 @media (min-width: 450px) {
   #home div {
     display: block;
-    text-align: center;
   }
 }
 @media (min-width: 700px) {
@@ -76,6 +74,7 @@
 #bio .about-header {
   display: flex;
   margin-top: 5px;
+  justify-content: center;
 }
 #bio .about-header h3 {
   margin: 20px;
@@ -102,14 +101,11 @@
 }
 
 @media (min-width: 900px) {
-  #bio {
-    height: 100%;
-  }
   #bio .skills-icons i {
     font-size: 50px;
   }
   #bio p {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 #projects {
@@ -169,7 +165,7 @@
   font-size: 35px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 550px) {
   #projects .card {
     width: 40%;
     height: 450px;
@@ -221,6 +217,10 @@
   #contact .cont-dets {
     text-align: center;
   }
+  #contact .cont-dets a p:hover {
+    color: #F08700;
+    transition: 0.6s ease;
+  }
   #contact .icon-links a:hover {
     color: #F08700;
     transition: 0.75s ease;
@@ -263,7 +263,7 @@ html {
 
 @media (min-width: 450px) {
   .nav-items li a {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 main {

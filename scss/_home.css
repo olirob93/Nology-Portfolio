@@ -1,0 +1,65 @@
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #95A3B3;
+  color: #fff;
+}
+#home div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+#home h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+#home h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#home button {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  background-color: #95A3B3;
+  border: 0;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+#home button a {
+  color: #fff;
+}
+
+@media (min-width: 330px) {
+  h1, h2, button {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 450px) {
+  #home div {
+    display: block;
+  }
+}
+@media (min-width: 700px) {
+  body .mobile-nav {
+    display: none;
+  }
+
+  #home .mob-only {
+    display: none;
+  }
+
+  #home button a:hover {
+    color: #F08700;
+    transition: 0.7s ease;
+  }
+
+  #home, #bio, #projects, #contact {
+    margin-left: 20%;
+    width: auto;
+  }
+}

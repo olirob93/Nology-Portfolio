@@ -12,6 +12,7 @@
     .about-header{
         display: flex;
         margin-top: 5px;
+        justify-content: center;
 
         h3{
             margin: 20px;
@@ -47,14 +48,11 @@
 @media (min-width:900px){
 
     #bio {
-
-        height: 100%;
-
         .skills-icons i {
             font-size: 50px;
         }
     p {
-        font-size: 25px;
+        font-size: 20px;
     }
        
     }

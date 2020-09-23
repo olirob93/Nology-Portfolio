@@ -1,0 +1,52 @@
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  height: 500px;
+}
+#contact h3 {
+  margin-top: 10px;
+  font-size: 35px;
+  color: black;
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+}
+#contact .cont-dets h4 {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 20px;
+}
+#contact .cont-dets a {
+  text-decoration: none;
+}
+#contact .cont-dets p {
+  margin: 5px;
+  color: #4B4E6D;
+  font-size: 15px;
+  font-weight: bold;
+}
+#contact .icon-links {
+  display: flex;
+  justify-content: center;
+}
+#contact .icon-links a {
+  color: #4B4E6D;
+  margin: 10px;
+}
+#contact .icon-links a i {
+  font-size: 75px;
+}
+
+@media (min-width: 700px) {
+  #contact .cont-dets {
+    text-align: center;
+  }
+  #contact .cont-dets a p:hover {
+    color: #F08700;
+    transition: 0.6s ease;
+  }
+  #contact .icon-links a:hover {
+    color: #F08700;
+    transition: 0.75s ease;
+  }
+}

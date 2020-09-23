@@ -1,0 +1,45 @@
+#bio {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+}
+#bio .about-header {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+#bio .about-header h3 {
+  margin: 20px;
+  font-size: 35px;
+  align-self: center;
+  text-decoration: underline;
+}
+#bio .about-header img {
+  height: 125px;
+  width: 150px;
+  border-radius: 50%;
+}
+#bio p {
+  padding: 15px;
+}
+#bio .skills-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+#bio .skills-icons i {
+  font-size: 35px;
+  margin: 5px;
+}
+
+@media (min-width: 900px) {
+  #bio .skills-icons i {
+    font-size: 50px;
+  }
+  #bio p {
+    font-size: 20px;
+  }
+}
