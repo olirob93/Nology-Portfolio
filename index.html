@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss//style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/98af6b10c5.js" crossorigin="anonymous"></script>
     <title>Ollie Robins | Software Developer</title>
 </head>
@@ -76,7 +77,7 @@
         
         <section id="projects">
             <h3>Projects</h3>
-            <div class="card">
+            <div class="card" data-aos="flip-right">
                 <img class="card-img" src="images/namegen.png" alt="project 1">
                 <div class="card-body">
                   <h5 class="card-title">Javascript name generator</h5>
@@ -87,7 +88,7 @@
                   </div>
                 </div>
               </div>
-              <div class="card">
+              <div class="card" data-aos="flip-right">
                 <img class="card-img" src="images/glozzom.png" alt="project 2">
                 <div class="card-body">
                   <h5 class="card-title">Bootstrap Theme</h5>
@@ -98,8 +99,19 @@
                   </div>
                 </div>
               </div> 
-              <div class="card">
-                <img class="card-img" src="/images/comingSoon.jpg" alt="Coming soon image">
+              <div class="card" data-aos="flip-right">
+                <img class="card-img" src="/images/Calculator.png" alt="Coming soon image">
+                <div class="card-body">
+                  <h5 class="card-title">Vanilla Javascript Calculator</h5>
+                  <p class="card-text">Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions</p>
+                  <div class="card-links">
+                    <a href="https://olirob93.github.io/Vanilla-Javascript-Calculator/" class=""><i class="fab fa-chrome"></i></i></a>
+                    <a href="https://github.com/olirob93/Vanilla-Javascript-Calculator" class=""><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" data-aos="flip-right">
+                <img class="card-img" src="/images/comingsoon.png" alt="Coming soon image">
                 <div class="card-body">
                   <h5 class="card-title">Coming Soon</h5>
                   <p class="card-text">Keep an eye out for my next project!</p>
@@ -108,7 +120,7 @@
                     <a href="#" class=""><i class="fab fa-github"></i></a>
                   </div>
                 </div>
-              </div> 
+              </div>  
         </section>
         
         <section id="contact">
@@ -129,5 +141,7 @@
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
