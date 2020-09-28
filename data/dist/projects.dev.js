@@ -19,7 +19,7 @@ var projects = [{
 }, {
   name: 'Vanilla Javascript Calculator',
   cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
-  image: 'images/namegen.png',
+  image: 'images/calculator.png',
   GitUrl: 'https://github.com/olirob93/Vanilla-Javascript-Calculator',
   liveSiteUrl: 'https://olirob93.github.io/Vanilla-Javascript-Calculator/'
 }, {
