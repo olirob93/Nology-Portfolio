@@ -25,6 +25,7 @@ html{
     bottom: 0;
     left: 0;
     border-top: 3px solid $orange-color;
+    z-index: 999;
     
     .nav-items{
         width: 100%;
