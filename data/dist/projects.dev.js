@@ -23,6 +23,12 @@ var projects = [{
   GitUrl: 'https://github.com/olirob93/Vanilla-Javascript-Calculator',
   liveSiteUrl: 'https://olirob93.github.io/Vanilla-Javascript-Calculator/'
 }, {
+  name: 'Vanilla Javascript game of tic tac toe',
+  cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
+  image: '/images/tictactoe.png',
+  GitUrl: 'https://github.com/olirob93/Tic-Tac-Toe',
+  liveSiteUrl: 'https://olirob93.github.io/Tic-Tac-Toe/'
+}, {
   name: 'Coming Soon',
   cardText: 'Keep an eye out for my next project!',
   image: '/images/comingsoon.png',
