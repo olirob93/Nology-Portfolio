@@ -24,11 +24,20 @@ const projects = [
     },
 
     {
-        name: 'Vanilla Javascript game of tic tac toe',
+        name: 'Vanilla Javascript Tic Tac Toe',
         cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
         image: '/images/tictactoe.png',
         GitUrl: 'https://github.com/olirob93/Tic-Tac-Toe',
         liveSiteUrl: 'https://olirob93.github.io/Tic-Tac-Toe/'
+    },
+
+    
+    {
+        name: 'Vanilla Javascript Morse Code Converter',
+        cardText: '3 Hour coding challenge to produce a Morse Code Coverter',
+        image: '/images/morsecode.png',
+        GitUrl: 'https://github.com/olirob93/Morse-Code-Converter',
+        liveSiteUrl: 'https://olirob93.github.io/Morse-Code-Converter/'
     },
 
     {
